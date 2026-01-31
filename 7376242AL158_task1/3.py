@@ -1,0 +1,5 @@
+p = int (input ("enter value of p :"))
+r = int(input ("enter value of r :"))
+t = int (input ("enter value of t :"))
+compinterest = p*((1+r/100)**t -1)
+print("compound interest is :", compinterest)
