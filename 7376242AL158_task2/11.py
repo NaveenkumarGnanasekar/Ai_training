@@ -1,0 +1,9 @@
+num = int(input ("enter a number :"))
+b =num 
+rev =0 
+while b!=0:
+    num1 = b % 10 
+    rev = rev *10 +num1
+    b //=10
+rot_num = num +rev 
+print("N + reverse(N)=", rot_num)
