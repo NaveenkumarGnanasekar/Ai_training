@@ -1,0 +1,7 @@
+n = list(map(int,input("enter list 1 elements :").split()))
+m = list(map(int,input("enter list 2 elements :").split()))
+k = list(map(int,input("enter list 3 elements :").split()))
+ns= set(n)
+ms=set(m)
+ks=set(k)
+print(f"common elements in all three list = {list(ns.intersection(ms,ks))}")

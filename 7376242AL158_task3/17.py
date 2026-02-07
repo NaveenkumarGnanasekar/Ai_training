@@ -1,0 +1,5 @@
+lst1 = list(map(int,input("enter list 1 :").split()))
+lst2 = list(map(int,input("enter list 2 :").split()))
+set1=set(lst1)
+set2 = set(lst2)
+print(f"the Symmetric Difference of the given lists is = {set1.symmetric_difference(set2)}")
